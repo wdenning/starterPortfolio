@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">William Denning</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="https://pdfhost.io/v/XArxTrhl7_Resume_salesver_6.pdf">Resume</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="main-container container">
+        <div class="row main_row">
+          <div class="col-md-6 pt-5">
+            <h2 class="text-white">Hello, I'm</h2>
+            <h1 class="text-warning m-heading">William Denning</h1>
+            <h2 class="text-white">Web Developer</h2>
+          </div>
+          <div class="col-md-6 pt-5 pr-5"> 
+            <!-- ^for hiding on small screen sizes -->
+            <img
+              src="images/intro.png"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      
+      <div id="about" class="container ph-5">
+        <div class="row">
+          <div class="col-md-6 d-none d-md-block">
+            <img src="images/robot.png" class="img-fluid py-5 px-5 second_image" alt="" />
+          </div>
+          <div class="col-md-6 pl-5 pt-5 pb-5 text-white">
+            <h1 class="m-heading">A little bit about me.</h1>
+            <p>Lorem ipsum dolor sit amet <b class="text-warning">consectetur adipi sicing elit. </b>Id est, dolorem consequatur magni quos vitae labore ea maxime eius quasi numquam praesentium repellat ducimus at velit rem? At, architecto est?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas iste magnam molestiae reiciendis nulla, ratione blanditiis nobis placeat? Laudantium recusandae quod autem, quia ducimus omnis esse soluta totam corrupti ex.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" class="container mt-3 pt-5 pb-5">
+        <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+        <div class="row">
+          <div class="col-md-4 pb-2">
+            <div class="card" style="width: auto;">
+              <img class="card-img-top" src="SAMPLE IMAGE" alt="Card image cap">
+              <div class="card-body"> 
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-2">
+            <div class="card" style="width: auto;">
+              <img class="card-img-top" src="SAMPLE IMAGE" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-2">
+            <div class="card" style="width: auto;">
+              <img class="card-img-top" src="SAMPLE IMAGE" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="container-fluid p-4">
+        <div class="container text-white">
+          <h4 class="text-warning">Contact</h4>
+          <h1 class="m-heading">Let's connect.</h1>
+          <div class="row pt-5">
+            <div class="col-md-4 pb-2 media_link btn" href="#">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-linkedin-in fa-2x text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2 media_link btn" href="#">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="pt-2 m-0 text-white">Github</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-github fa-2x text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2 media_link btn-warning btn" href="#">
+              <div class="row">
+                <div class="col-6 d-flex justify-cosntent-start">
+                  <h3 class="pt-2 m-0 text-dark">Email</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fas fa-envelope fa-2x text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container text-muted text-center py-3 pt-5">
+          <h5>Copyright &copy; 2020 | <a href="#">William Denning</a></h5>
+        </div>
+      </footer>
+</body>
+</html>
