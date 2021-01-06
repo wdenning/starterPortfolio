@@ -52,7 +52,7 @@ body {
     border-radius: 0.5rem;
     font-size:110%
   }
-  a{
+  #about a{
     color: #FEB60D;
     text-decoration: underline;
   }
