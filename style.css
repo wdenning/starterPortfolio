@@ -50,6 +50,15 @@ body {
   #about{
     background: #257B9D;
     border-radius: 0.5rem;
+    font-size:110%
+  }
+  a{
+    color: #FEB60D;
+    text-decoration: underline;
+  }
+  .icon-size{
+    font-size: 3em;
+    padding: 1rem;
   }
 
   .navbar-custom { 
